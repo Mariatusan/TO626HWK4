@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "986313227241",
+    "firebase_url": "https://mariatuto626hwk4.firebaseio.com",
+    "project_id": "mariatuto626hwk4",
+    "storage_bucket": "mariatuto626hwk4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986313227241:android:4ba409ea480940e8a46978",
+        "android_client_info": {
+          "package_name": "com.example.to626hwk4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986313227241-5rtrko1k024qak005kg3lvibqpmn1p78.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.to626hwk4",
+            "certificate_hash": "cb70dab92b3f62edf7af056e9afca204eaced16c"
+          }
+        },
+        {
+          "client_id": "986313227241-fl4d2i0mbqrlsqhn1r843243c4194a2a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA8qkCyWfjJosckRhZ2UXhPmUT3qPLjyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "986313227241-fl4d2i0mbqrlsqhn1r843243c4194a2a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
