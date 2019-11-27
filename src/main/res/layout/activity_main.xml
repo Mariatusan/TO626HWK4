@@ -85,8 +85,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Back to Search Page"
-        tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="492dp" />
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="485dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -9,45 +9,54 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <EditText
-            android:id="@+id/editTextzipcode"
-            android:layout_width="226dp"
-            android:layout_height="51dp"
-            android:layout_marginStart="99dp"
-            android:layout_marginLeft="99dp"
-            android:layout_marginTop="255dp"
-            android:layout_marginEnd="99dp"
-            android:layout_marginRight="99dp"
-            android:ems="10"
-            android:hint="Zipcode"
-            android:inputType="textPersonName"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
         <Button
             android:id="@+id/buttonsearch"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="161dp"
             android:layout_marginLeft="161dp"
-            android:layout_marginTop="54dp"
             android:layout_marginEnd="162dp"
             android:layout_marginRight="162dp"
             android:layout_marginBottom="323dp"
             android:text="@android:string/search_go"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextzipcode" />
+            app:layout_constraintStart_toStartOf="parent" />
 
         <Button
             android:id="@+id/buttonReportPage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="116dp"
+            android:layout_marginLeft="116dp"
+            android:layout_marginTop="53dp"
             android:text="Back to Report Page"
-            tools:layout_editor_absoluteX="116dp"
-            tools:layout_editor_absoluteY="461dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonsearch" />
+
+        <EditText
+            android:id="@+id/editTextSearchZipCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="99dp"
+            android:layout_marginLeft="99dp"
+            android:layout_marginTop="243dp"
+            android:ems="10"
+            android:hint="Enter Zip Code"
+            android:inputType="textPersonName"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewFoundName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="204dp"
+            android:layout_marginLeft="204dp"
+            android:layout_marginTop="28dp"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextSearchZipCode" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>
