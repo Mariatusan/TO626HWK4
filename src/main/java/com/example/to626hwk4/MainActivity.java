@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         editTextzipcode = findViewById(R.id.editTextzipcode);
         editTextperson = findViewById(R.id.editTextperson);
         buttonsubmit = findViewById(R.id.buttonsubmit);
-        buttonSearchPage = findViewById(R.id.buttonReportPage);
+        buttonSearchPage = findViewById(R.id.buttonSearchPage);
 
         buttonsubmit.setOnClickListener(this);
         buttonSearchPage.setOnClickListener(this);

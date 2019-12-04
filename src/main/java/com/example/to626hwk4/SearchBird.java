@@ -24,7 +24,7 @@ public class SearchBird extends AppCompatActivity implements View.OnClickListene
     Button buttonsearch, buttonReportPage;
 
     private FirebaseAuth mAuth;
-  //  private Object View;
+    //private Object View;
 
   //  public SearchBird(String toString) {
    // }
